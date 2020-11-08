@@ -106,5 +106,13 @@ namespace RestSharpTest
             Assert.AreEqual("92000", dataResponse.salary);
             System.Console.WriteLine(response.Content);
         }
+        [TestMethod]
+        public void GivenEmployeeID_OnDelete_ShouldReturnSuccessStatus()
+        {
+            RestRequest request = new RestRequest("/employee/5", Method.DELETE);
+            IRestResponse response = client.Execute(request);
+            Assert.AreEqual(response.StatusCode, HttpStatusCode.OK);
+            System.Console.WriteLine(response.Content);
+        }
     }
 }
