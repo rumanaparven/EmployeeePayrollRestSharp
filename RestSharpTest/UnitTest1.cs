@@ -59,5 +59,36 @@ namespace RestSharpTest
             System.Console.WriteLine(response.Content);
 
         }
+
+        [TestMethod]
+        public void givenmULTIPLEEmployee_OnPost_ReturnAllEmployee()
+        {
+
+            List<Employee> employeeList = new List<Employee>();
+            employeeList.Add(new Employee { name = "Sagar", salary = "45000" });
+            employeeList.Add(new Employee { name = "Mady", salary = "75000" });
+            foreach (Employee e in employeeList)
+            {
+                RestRequest request = new RestRequest("/employee", Method.POST);
+                JObject jObject = new JObject();
+                jObject.Add("name", e.name);
+                jObject.Add("salary", e.salary);
+
+                request.AddParameter("application/json", jObject, ParameterType.RequestBody);
+                IRestResponse response1 = client.Execute(request);
+                Assert.AreEqual(response1.StatusCode, HttpStatusCode.Created);
+            }
+
+            IRestResponse response = getEmployeeList();
+
+            Assert.AreEqual(response.StatusCode, HttpStatusCode.OK);
+            List<Employee> dataResponse = JsonConvert.DeserializeObject<List<Employee>>(response.Content);
+            Assert.AreEqual(8, dataResponse.Count);
+
+            foreach (Employee e in dataResponse)
+            {
+                System.Console.WriteLine("ID : " + e.id + " Name : " + e.name + " Salary : " + e.salary);
+            }
+        }
     }
 }
