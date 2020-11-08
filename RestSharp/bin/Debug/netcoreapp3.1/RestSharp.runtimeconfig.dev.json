@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\RUMANA\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\RUMANA\\.nuget\\packages"
+    ]
+  }
+}

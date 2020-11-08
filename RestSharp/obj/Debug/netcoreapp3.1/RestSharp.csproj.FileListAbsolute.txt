@@ -1,0 +1,12 @@
+C:\Users\RUMANA\source\repos\RestSharp\RestSharp\bin\Debug\netcoreapp3.1\RestSharp.exe
+C:\Users\RUMANA\source\repos\RestSharp\RestSharp\bin\Debug\netcoreapp3.1\RestSharp.deps.json
+C:\Users\RUMANA\source\repos\RestSharp\RestSharp\bin\Debug\netcoreapp3.1\RestSharp.runtimeconfig.json
+C:\Users\RUMANA\source\repos\RestSharp\RestSharp\bin\Debug\netcoreapp3.1\RestSharp.runtimeconfig.dev.json
+C:\Users\RUMANA\source\repos\RestSharp\RestSharp\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\RUMANA\source\repos\RestSharp\RestSharp\bin\Debug\netcoreapp3.1\RestSharp.pdb
+C:\Users\RUMANA\source\repos\RestSharp\RestSharp\obj\Debug\netcoreapp3.1\RestSharp.AssemblyInfoInputs.cache
+C:\Users\RUMANA\source\repos\RestSharp\RestSharp\obj\Debug\netcoreapp3.1\RestSharp.AssemblyInfo.cs
+C:\Users\RUMANA\source\repos\RestSharp\RestSharp\obj\Debug\netcoreapp3.1\RestSharp.csproj.CoreCompileInputs.cache
+C:\Users\RUMANA\source\repos\RestSharp\RestSharp\obj\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\RUMANA\source\repos\RestSharp\RestSharp\obj\Debug\netcoreapp3.1\RestSharp.pdb
+C:\Users\RUMANA\source\repos\RestSharp\RestSharp\obj\Debug\netcoreapp3.1\RestSharp.genruntimeconfig.cache
